@@ -1,0 +1,24 @@
+# Learn-KVM
+
+## 编译
+
+编译kvm
+```shell
+gcc kvm.c -o kvm
+```
+编译guest/kernel
+```shell
+cd guest
+make
+```
+
+## 运行
+
+终端1
+```shell
+sudo ./kvm
+```
+终端2
+```shell
+pidstat -p `pidof kvm` 1
+```
