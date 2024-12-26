@@ -1,0 +1,5 @@
+kvm
+.vscode
+*.bin
+*.elf
+*.o
